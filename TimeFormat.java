@@ -18,6 +18,9 @@ public class TimeFormat {
 			hours = hours-12;
 			suffix = "PM";
 		}
+		else if(hours==12){
+			suffix = "PM";
+		}
 		else suffix = "AM";
 
 		System.out.print(hours + ":");

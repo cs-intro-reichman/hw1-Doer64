@@ -8,6 +8,6 @@ public class Bill3 {
         int fullP = Integer.parseInt(args[3]); //recives full price to pay
 
         double pay = Math.ceil(fullP/3.0);
-        System.out.println("Dear " + name3 +", "+ name2 + ", and " + name1 + ": pay " + pay + " shekels each");    
+        System.out.println("Dear " + name3 +", "+ name2 + ", and " + name1 + ": pay " + pay + " Shekels each");    
 	}
 }
